@@ -5,20 +5,20 @@ export default function HeaderFeaturedNav() {
   return (
     <Nav>
       <NavItem>
-        <Link href="/" passHref legacyBehavior>
-          <NavLink className="p-2">Dashboard</NavLink>
+        <Link href="/pokemons" passHref legacyBehavior>
+          <NavLink className="p-2">Patients</NavLink>
         </Link>
       </NavItem>
       <NavItem>
         <Link href="#" passHref legacyBehavior>
-          <NavLink className="p-2">Users</NavLink>
+          <NavLink className="p-2">Admin</NavLink>
         </Link>
       </NavItem>
-      <NavItem>
+      {/* <NavItem>
         <Link href="#" passHref legacyBehavior>
           <NavLink className="p-2">Settings</NavLink>
         </Link>
-      </NavItem>
+      </NavItem> */}
     </Nav>
   )
 }
